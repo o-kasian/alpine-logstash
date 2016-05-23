@@ -1,6 +1,6 @@
 FROM java:jre-alpine
 
-ENV GOSU_VERSION 1.8
+ENV GOSU_VERSION 1.9
 ENV LOGSTASH_VERSION 2.3.2
 
 RUN apk update && apk add curl bash && \
