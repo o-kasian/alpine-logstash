@@ -1,3 +1,5 @@
+[![](https://imagelayers.io/badge/gafiatulin/alpine-logstash:latest.svg)](https://imagelayers.io/?images=gafiatulin/alpine-logstash:latest 'Get your own badge on imagelayers.io')
+
 # Logstash docker image based on Alpine Linux
 
 ### Build
