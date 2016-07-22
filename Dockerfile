@@ -1,7 +1,7 @@
 FROM java:jre-alpine
 
 ENV GOSU_VERSION 1.9
-ENV LOGSTASH_VERSION 2.3.2
+ENV LOGSTASH_VERSION 2.3.4
 
 RUN apk update && apk add curl bash && \
     curl -o /usr/local/bin/gosu -sSL "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-amd64" && \
